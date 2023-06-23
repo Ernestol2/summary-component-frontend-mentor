@@ -1,0 +1,140 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #efedf5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .main-container {
+    min-height: 400px;
+    margin: 180px;
+    display: flex;
+  }
+  
+  .rigth {
+    min-height: 400px;
+    max-width: 350px;
+    width: 50%;
+    background-color: #4e03fc;
+    border-radius: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .rigth h3 {
+    padding: 20px;
+    color: #c7bfdb;
+  }
+  
+  .rigth .circle {
+    height: 170px;
+    width: 170px;
+    background-color: #3402a8;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px 2px #d5d3db;
+  }
+  
+  .circle h2 {
+    color: #fff;
+    font-size: 5rem;
+    margin: 20px;
+    margin-bottom: 0;
+  }
+  
+  .circle p {
+    color: #c7bfdb;
+    margin: 0;
+  }
+  
+  .rigth .congrats {
+    font-size: 1.2rem;
+    padding: 10px;
+    color: #fff
+  }
+  
+  .left {
+    min-height: 400px;
+    min-width: 350px;
+    width: 50%;
+    z-index: -1;
+    margin-left: -25px;
+    background-color: #fff;
+    border-radius: 0 40px 40px 0;
+    box-shadow: 10px 5px 5px #d5d3db;
+  }
+  
+  .left-container {
+    padding: 50px;
+  }
+
+  .left-container h3 {
+    margin-top: -15px;
+  }
+  
+  .left .botones {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .botones button {
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .botones p {
+    margin: 12px;
+  }
+  
+  .botones .red {
+    color: #eb5757;
+    background-color: #f0b9b9;
+  }
+  
+  .botones .yellow {
+    color: #cc9706;
+    background-color: #edecc2;
+  }
+  
+  .botones .green {
+    color: #256e15;
+    background-color: #def2da;
+  }
+  
+  .botones .blue {
+    color: #010687;
+    background-color: #d5d6f5;
+  }
+  
+  .botones .black {
+    color: #000
+  }
+  
+  .left .continue {
+    margin: 20px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 90%;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #120b26;
+    border: none;
+    border-radius: 40px
+  }
+  
+  .continue p {
+    margin: 15px;
+  }
